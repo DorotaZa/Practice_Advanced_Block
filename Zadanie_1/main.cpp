@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 void reverseString (std::string str)
 {
@@ -17,9 +18,7 @@ void reverseString (std::string str)
 
 int main()
 {
-
     std::cout << "Hello World!" << std::endl;
     std::string str = "Hello World!";
     reverseString(str);
-
 }

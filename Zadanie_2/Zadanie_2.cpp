@@ -6,7 +6,8 @@
 #include <string>
 #include <vector>
 
-std::vector <char> mutualLetters (std::string first, std::string second)
+//USING VECTOR
+std::vector <char> mutualLetters(std::string first, std::string second)
 {
     std::vector <char> vec;
     for (auto i = 0; i < first.length(); ++i)
@@ -20,6 +21,8 @@ std::vector <char> mutualLetters (std::string first, std::string second)
     return vec;
 }
 
+//USING UNORDERED SORT -> TODO
+
 int main()
 {
     std::string a = "Barbara";
@@ -28,9 +31,6 @@ int main()
 
     auto print = mutualLetters(a, b);
 
-    for (const auto p : print)
-    {
-        std::cout << p;
-    }
-   
+    std::cout << vec.size() << std::endl;
+
 }
