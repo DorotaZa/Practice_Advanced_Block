@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_1\main.cpp(11,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Zadanie_1.vcxproj -> C:\C++-SDA\C++Advanced\Block_Advanced\x64\Debug\Zadanie_1.exe
