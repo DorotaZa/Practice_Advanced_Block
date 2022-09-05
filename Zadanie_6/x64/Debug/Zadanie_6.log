@@ -1,0 +1,10 @@
+﻿  PrimeNumber.cpp
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_6\PrimeNumber.cpp(59,7): error C2039: 'for_each': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iostream(19): message : see declaration of 'std'
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_6\PrimeNumber.cpp(59,16): error C2065: 'list': undeclared identifier
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_6\PrimeNumber.cpp(59,30): error C2065: 'list': undeclared identifier
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_6\PrimeNumber.cpp(59,15): error C3861: 'for_each': identifier not found
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_6\PrimeNumber.cpp(60,2): error C2143: syntax error: missing ';' before 'return'
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_6\PrimeNumber.cpp(60,9): error C2065: 'list': undeclared identifier
+  Zadanie_6.cpp
+  Generating Code...
