@@ -1,4 +1,5 @@
-﻿  Rectangle.cpp
-  main.cpp
-  Generating Code...
-  Zadanie_8.vcxproj -> C:\C++-SDA\C++Advanced\Block_Advanced\x64\Debug\Zadanie_8.exe
+﻿  main.cpp
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_8\main.cpp(20,17): error C2275: 'RectangleManager': illegal use of this type as an expression
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_8\RectangleManager.hpp(8): message : see declaration of 'RectangleManager'
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_8\main.cpp(20,34): error C2146: syntax error: missing ';' before identifier 'rec'
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_8\main.cpp(20,34): error C3861: 'rec': identifier not found

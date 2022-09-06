@@ -10,3 +10,14 @@ RectangleManager::RectangleManager()
 		recVec.push_back(rec.generateRectangle());
 	}
 }
+
+void RectangleManager::printRectangles(Rectangle)
+{
+	for(auto it = recVec.begin(); it != recVec.end(); ++it)
+	{
+
+	}
+	auto lambda = 
+
+	for_each(recVec.begin(), recVec.end(),lambda);
+}
