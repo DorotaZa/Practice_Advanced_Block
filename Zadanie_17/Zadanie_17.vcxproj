@@ -140,16 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="EmployeeFileReader.cpp" />
-    <ClCompile Include="EmployeeFileWriter.cpp" />
+    <ClCompile Include="EmployeeCSVReader.cpp" />
+    <ClCompile Include="EmployeeCSVWriter.cpp" />
     <ClCompile Include="EmployeeLoginGenerator.cpp" />
-    <ClCompile Include="EmployeeManagaer.cpp" />
+    <ClCompile Include="EmployeeManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employee.hpp" />
-    <ClInclude Include="EmployeeFileReader.hpp" />
-    <ClInclude Include="EmployeeFileWriter.hpp" />
+    <ClInclude Include="EmployeeCSVReader.hpp" />
+    <ClInclude Include="EmployeeCSVWriter.hpp" />
+    <ClInclude Include="EmployeeJSONReader.hpp" />
+    <ClInclude Include="EmployeeJSONWriter.hpp" />
+    <ClInclude Include="IEmployeeFileReader.hpp" />
+    <ClInclude Include="IEmployeeFileWriter.hpp" />
     <ClInclude Include="EmployeeLoginGenerator.hpp" />
     <ClInclude Include="EmployeeManager.hpp" />
   </ItemGroup>
