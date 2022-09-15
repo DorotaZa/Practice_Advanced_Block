@@ -7,7 +7,7 @@
 //first_name, last_name, email, gender, salary
 //
 //a) Dla każdego pracownika wygeneruj unikalny login
-//login powinien byc wygenerowany jako dwie pierwsze litery nazwiska i imienia,
+//login powinien byc wygenerowany jako dwie pierwsze litery imienia i nazwiska,
 //a jeżeli już taki jest zajęty to dodajmy kolejne litery nazwiska, aż do uzyskania wolnego loginu,
 //np: Roby Helian->rohe
 //Robert Hello->rohel
