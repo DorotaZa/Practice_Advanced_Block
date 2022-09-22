@@ -10,5 +10,4 @@ public:
 	GuessTheNumber();
 	~GuessTheNumber();
 	void playGame();
-
 };

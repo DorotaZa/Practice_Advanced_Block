@@ -8,9 +8,9 @@ private:
     int _b;
 public:
     Rectangle(int a, int b);
-    int area();
+    int countArea();
     int getA();
-    int getB(); 
+    int getB();
     bool isSquare();
 };
 

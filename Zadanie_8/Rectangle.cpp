@@ -2,12 +2,12 @@
 
 Rectangle::Rectangle (int a, int b) : _a(a), _b(b) {}
 
-int Rectangle::area()
+int Rectangle::countArea()
 {
     return _a * _b;
 }
 
-int Rectangle::getA()
+int Rectangle::getA() 
 {
     return _a;
 }

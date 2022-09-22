@@ -7,14 +7,17 @@
 
 class RectangleManager
 {
-private:
-    std::vector <Rectangle> recVec;
+
 public:
-    RectangleManager();
-    void printRectangles(Rectangle);
+    RectangleManager(int howMany);
+    void printRectangle(Rectangle r);
+    void printAllRectangles();
     size_t countRectangleBiggerThen(int area);
-    std::vector <int> copyRectangles();
+    std::vector <Rectangle> copyRectangles();
     void sortAreaDescending();
     void deleteInvalid();
+
+private:
+    std::vector <Rectangle> recVec;
 
 };
