@@ -1,0 +1,5 @@
+﻿  Change.cpp
+C:\C++-SDA\C++Advanced\Block_Advanced\Zadanie_14\Change.cpp(13,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  Zadanie_14.vcxproj -> C:\C++-SDA\C++Advanced\Block_Advanced\x64\Debug\Zadanie_14.exe
